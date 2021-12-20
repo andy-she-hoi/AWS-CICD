@@ -73,6 +73,43 @@ _The UI will change after you tick the box (Extract file before deploy)_
 
 Review and create the pipeline
 
+Please note that The pipeline will not run successfully because the buildspec.yml file is not yet available
+
+# Step 5: Create the buildspec.yml
+
+<b>Upload the buildspec.yml to the root directory of the master branch</b>
+
+```
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+      
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+      
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm run build
+      
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build
+```
+
 # Step 5: Create a Hosted Zone
 
 Create a Hosted zone that the name of the hosted zone matches your domain name.
@@ -131,7 +168,12 @@ Choose Define simple record.
 
 On the Configure records page, choose Create records.
 
-# Step 6: Create a distribution in CloudFront
+# Step 6: Request a certificate in ACM (AWS Certificate Manager)
+![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
+![image](https://user-images.githubusercontent.com/80022917/146711371-171a6654-0cbd-4e36-9c3c-69dfdc48c011.png)
+
+
+# Step 7: Create a distribution in CloudFront
 
 
 # References:
