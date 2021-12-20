@@ -35,6 +35,7 @@ Attach CORS policy for the domain bucket
 ]
 ```
 
+
 For the subdomain bucket (www.example.link):
 
 Under the properties page, find the section Static website hosting and click Edit
