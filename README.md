@@ -67,6 +67,8 @@ Click the Create Project if needed
 ![image](https://user-images.githubusercontent.com/80022917/146712523-71dd9740-dce4-4428-aa39-9914d714891a.png)
 ![image](https://user-images.githubusercontent.com/80022917/146712544-ecb758f5-69e2-4350-951d-3f45deedff58.png)
 
+More details of images can be founded: https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html
+
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
 
 _The UI will change after you tick the box (Extract file before deploy)_
@@ -181,5 +183,5 @@ On the Configure records page, choose Create records.
 # References:
 
 1) https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
-2) https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html
+2) 
 3) 
