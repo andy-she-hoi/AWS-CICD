@@ -9,13 +9,32 @@ b) Select a region for your app
 
 c) Remain the rest and create the bucket
 
-# Step 2: Change properties of S3 buckets
+# Step 2: Change properties and permissions of S3 buckets
 
 For the domain bucket (example.link):
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_1.jpg?raw=true)
 
+Attach CORS policy for the domain bucket
+```
+[
+    {
+        "AllowedHeaders": [],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]
+```
+
 For the subdomain bucket (www.example.link):
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_2.jpg?raw=true)
+
+# Step 3: Attach CORS policy for the domain bucket
+
 
 References:
 1) https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
