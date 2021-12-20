@@ -175,6 +175,7 @@ On the Configure records page, choose Create records.
 # Step 7: Request a certificate in ACM (AWS Certificate Manager)
 ![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
 ![image](https://user-images.githubusercontent.com/80022917/146711371-171a6654-0cbd-4e36-9c3c-69dfdc48c011.png)
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/acm.jpg?raw=true)
 
 
 # Step 8: Create a distribution in CloudFront
