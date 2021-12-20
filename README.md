@@ -1,6 +1,6 @@
 # AWS-Frontend-CICD
 
-Step 1: Create S3 buckets
+# Step 1: Create S3 buckets
 
 a) Please ensure names of S3 buckets are exactly the same with your domain and subdomain
    For example: example.link and www.example.link
@@ -9,7 +9,7 @@ b) Select a region for your app
 
 c) Remain the rest and create the bucket
 
-Step 2: Change properties of S3 buckets
+# Step 2: Change properties of S3 buckets
 
 For the domain bucket (example.link):
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_1.jpg?raw=true)
