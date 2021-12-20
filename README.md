@@ -54,10 +54,7 @@ Please note that we do not need to edit Block public access (bucket settings) if
 
 # Step 4: Create a CodePipeline
 
-1)
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
-
-2)
 
 <b>If you do not own the Bitbucket repo, please create a User role in IAM for the repo owner, and ask the owner generate a connection</b>
 
@@ -66,19 +63,13 @@ _You can delete the user after the connection is generated._
 <b>If you own the Bitbucket repo, click Connect to Bitbucket and then generate a connection</b>
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
 
-3)
-
 Click the Create Project if needed
 
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
 
-4)
-
 _The UI will change after you tick the box (Extract file before deploy)_
 
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
-
-5)
 
 Review and create the pipeline
 
