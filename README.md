@@ -73,7 +73,7 @@ _The UI will change after you tick the box (Extract file before deploy)_
 
 Review and create the pipeline
 
-Please note that The pipeline will not run successfully because the buildspec.yml file is not yet available
+_Please note that the pipeline will not run successfully because the buildspec.yml file is not yet available_
 
 # Step 5: Create the buildspec.yml
 
