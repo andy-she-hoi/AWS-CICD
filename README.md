@@ -93,7 +93,9 @@ Choose the Region.
 
 Choose the S3 bucket.
 
-The bucket name should match the name that appears in the Name box. In the Choose S3 bucket list, the bucket name appears with the Amazon S3 website endpoint for the Region where the bucket was created, for example, s3-website-ap-southeast-2.amazonaws.com (example.link).
+The bucket name should match the name that appears in the Name box. In the Choose S3 bucket list, the bucket name appears with the Amazon S3 website endpoint for the Region where the bucket was created
+
+_for example, s3-website-ap-southeast-2.amazonaws.com (example.link)_
 
 Choose S3 bucket lists a bucket if:
 
@@ -119,7 +121,7 @@ In Value/Route traffic to, choose Alias to S3 website endpoint.
 
 Choose the Region.
 
-Choose the S3 bucket, for example, s3-website-ap-southeast-2.amazonaws.com (example.link).
+Choose the S3 bucket, _for example, s3-website-ap-southeast-2.amazonaws.com (example.link)_
 
 In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
 
