@@ -191,6 +191,9 @@ After the verification is successful, you will see that the status of your certi
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_4.jpg?raw=true)
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_5.jpg?raw=true)
 
+# Step 9: Update the record sets for your domain and subdomain in Route 53
+
+
 # References:
 
 1) https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
