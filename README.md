@@ -16,7 +16,7 @@ Fill in details and register the domain
 
 a) Please ensure names of S3 buckets are exactly the same with your domain (example.link) and subdomain (www.example.link)
 
-b) Select a region for your app
+b) Select a region for your app (ap-southeast-2 is using for this tutorial)
 
 c) Remain the rest and create the bucket
 
