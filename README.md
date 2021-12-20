@@ -186,6 +186,7 @@ After the verification is successful, you will see that the status of your certi
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_1.jpg?raw=true)
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_2.jpg?raw=true)
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_3.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_4.jpg?raw=true)
 
 # References:
 
