@@ -196,9 +196,11 @@ After the verification is successful, you will see that the status of your certi
 Under Records, select the type A record of your domain and subdomain.
 
 Domain: example.link
+
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_1.jpg?raw=true)
 
 Subdomain: www.example.link
+
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
 
 # References:
