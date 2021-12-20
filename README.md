@@ -12,7 +12,12 @@ c) Remain the rest and create the bucket
 # Step 2: Change properties and permissions of S3 buckets
 
 For the domain bucket (example.link):
+
+Under the properties page, find the section Static website hosting and click Edit
+
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_1.jpg?raw=true)
+
+Under the permissions page, find the section Cross-origin resource sharing (CORS) and click Edit
 
 Attach CORS policy for the domain bucket
 ```
@@ -31,6 +36,9 @@ Attach CORS policy for the domain bucket
 ```
 
 For the subdomain bucket (www.example.link):
+
+Under the properties page, find the section Static website hosting and click Edit
+
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_2.jpg?raw=true)
 
 # Step 3: Attach CORS policy for the domain bucket
