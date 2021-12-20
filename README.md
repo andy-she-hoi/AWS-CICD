@@ -35,15 +35,19 @@ Attach CORS policy for the domain bucket
 ]
 ```
 
-
 For the subdomain bucket (www.example.link):
 
 Under the properties page, find the section Static website hosting and click Edit
 
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_2.jpg?raw=true)
 
-# Step 3: Attach CORS policy for the domain bucket
+Please note that we do not need to edit Block public access (bucket settings) if we use Cloudfront
 
+# Step 3: Create a CodePipeline
+
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
+
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
 
 References:
 1) https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
