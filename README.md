@@ -191,8 +191,15 @@ After the verification is successful, you will see that the status of your certi
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_4.jpg?raw=true)
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_5.jpg?raw=true)
 
-# Step 9: Update the record sets for your domain and subdomain in Route 53
+# Step 9: Update records in Route 53
 
+Under Records, select the type A record of your domain and subdomain.
+
+Domain: example.link
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_1.jpg?raw=true)
+
+Subdomain: www.example.link
+![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
 
 # References:
 
