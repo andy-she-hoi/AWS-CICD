@@ -1,5 +1,7 @@
 # AWS-Frontend-CICD
 
+_BitBucket + CodePipeline + S3 + Route 53 + CloudFront_
+
 <b>Except that the region of ACM is us-east-1, all regions in this tutorial are ap-southeast-2</b>
 
 # Step 1: Register domain in Route 53
