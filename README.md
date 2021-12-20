@@ -1,5 +1,7 @@
 # AWS-Frontend-CICD
 
+<b>Except that the region of ACM is us-east-1, all regions in this tutorial are ap-southeast-2</b>
+
 # Step 1: Register domain in Route 53
 
 ![image](https://user-images.githubusercontent.com/80022917/146707736-39c1be7b-129e-4523-9a9c-f919eb568390.png)
