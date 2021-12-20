@@ -65,7 +65,7 @@ Click the Create Project if needed
 
 Step 4
 
-_The UI will change after you tick the box_
+_The UI will change after you tick the box (Extract file before deploy)_
 
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
 
