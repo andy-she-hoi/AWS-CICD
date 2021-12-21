@@ -205,6 +205,7 @@ Subdomain: www.example.link
 
 ![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
 
+
 # References:
 
 1) https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
