@@ -8,7 +8,9 @@ _BitBucket + CodePipeline + ECR + ECS Fargate + Application Load Balancer_
 
 ## Dcokerfile 
 
-Please note that the node version may change
+Please note that the node version and ENV may change
+
+Please ask the developer for the container port which will be used in the EXPOSE clause
 
 ```
 FROM node:16-alpine as build
