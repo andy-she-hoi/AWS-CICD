@@ -46,11 +46,11 @@ Please modify the CHANGE HERE in the below template with the URI you copied at s
 
 For example: 
 
-CHANGE_HERE_1 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com
+    CHANGE_HERE_1 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com
 
-CHANGE_HERE_2 (ECR Repo URI) = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com/example
+    CHANGE_HERE_2 (ECR Repo URI) = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com/example
 
-You may also find YOUR_AWS_ID on the top right conner
+You may also find YOUR_AWS_ID (Account ID) on the top right conner
 
 ![image](https://user-images.githubusercontent.com/80022917/148495685-9f5b21da-6fb6-424e-979f-9fa9a3a32b76.png)
 
