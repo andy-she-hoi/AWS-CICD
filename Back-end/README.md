@@ -40,10 +40,12 @@ CMD npm start
 
 ## buildspec.yml
 
-Please change the REPOSITORY_URI in the below template
+Please change the CHANGE_HERE in the below template with the URI you copied at step 1
 
 For example: 
+
 CHANGE_HERE_1 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com
+
 CHANGE_HERE_2 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com/example
 
 ```
