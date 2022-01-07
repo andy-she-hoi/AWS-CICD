@@ -80,12 +80,12 @@ artifacts:
 
 Upload these 2 files into the root directory of your Bitbucket repo
 
-# Step 3: Create Cluster, Task and Service for ECS Fargate
+# Step 3: Create Cluster, Task Definition and Service for ECS Fargate
 
 ## Cluster
 ![image](https://user-images.githubusercontent.com/80022917/148495158-80aa45ef-9799-468c-bec9-dabf1feef819.png)
 
-## Task
+## Task Definition
 ![image](https://user-images.githubusercontent.com/80022917/148493878-88d0050a-8ddd-4fac-8558-737fdc3c81cc.png)
 ![image](https://user-images.githubusercontent.com/80022917/148494271-e430f2bb-d751-4e57-a2ed-ed0055a9c30c.png)
 ![image](https://user-images.githubusercontent.com/80022917/148494380-43e27587-c065-425b-8abf-8bebf89d2124.png)
