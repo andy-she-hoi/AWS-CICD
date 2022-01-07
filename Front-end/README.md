@@ -28,7 +28,7 @@ For the domain bucket (example.link):
 
 Under the properties page, find the section Static website hosting and click Edit
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_1.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/s3_properties_1.jpg?raw=true)
 
 Under the permissions page, find the section Cross-origin resource sharing (CORS) and click Edit
 
@@ -52,20 +52,20 @@ For the subdomain bucket (www.example.link):
 
 Under the properties page, find the section Static website hosting and click Edit
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/s3_properties_2.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/s3_properties_2.jpg?raw=true)
 
 Please note that we do not need to edit Block public access (bucket settings) if we use Cloudfront
 
 # Step 4: Create a CodePipeline
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
 
 <b>If you do not own the Bitbucket repo, please create a User role in IAM for the repo owner, and ask the owner generate a connection</b>
 
 _You can delete the user after the connection is generated._
  
 <b>If you own the Bitbucket repo, click Connect to Bitbucket and then generate a connection</b>
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
 
 Click the Create Project if needed
 ![image](https://user-images.githubusercontent.com/80022917/146712523-71dd9740-dce4-4428-aa39-9914d714891a.png)
@@ -73,11 +73,11 @@ Click the Create Project if needed
 
 More details of images can be founded: https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
 
 _The UI will change after you tick the box (Extract file before deploy)_
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
 
 Review and create the pipeline
 
@@ -187,11 +187,11 @@ After the verification is successful, you will see that the status of your certi
 
 # Step 8: Create a distribution in CloudFront
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_1.jpg?raw=true)
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_2.jpg?raw=true)
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_3.jpg?raw=true)
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_4.jpg?raw=true)
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/cloudfront_5.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/cloudfront_1.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/cloudfront_2.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/cloudfront_3.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/cloudfront_4.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/cloudfront_5.jpg?raw=true)
 
 # Step 9: Update records in Route 53
 
@@ -199,11 +199,11 @@ Under Records, select the type A record of your domain and subdomain.
 
 Domain: example.link
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_1.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/hosted_zone_1.jpg?raw=true)
 
 Subdomain: www.example.link
 
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
 
 
 # References:
