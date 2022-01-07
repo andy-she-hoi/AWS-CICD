@@ -40,13 +40,13 @@ CMD npm start
 
 ## buildspec.yml
 
-Please change the CHANGE_HERE in the below template with the URI you copied at step 1
+Please modify the CHANGE HERE in the below template with the URI you copied at step 1
 
 For example: 
 
 CHANGE_HERE_1 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com
 
-CHANGE_HERE_2 = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com/example
+CHANGE_HERE_2 (ECR Repo URI) = YOUR_AWS_ID.dkr.ecr.ap-southeast-2.amazonaws.com/example
 
 ```
 version: 0.2
@@ -76,7 +76,7 @@ artifacts:
     files: imagedefinitions.json
 ```
 
-Put these 2 files in the root directory of your Bitbucket repo.
+Put these 2 files in the root directory of your Bitbucket repo
 
 # References:
 
