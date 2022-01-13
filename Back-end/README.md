@@ -84,7 +84,7 @@ artifacts:
 
 Upload these 2 files into the root directory of your Bitbucket repo
 
-# Step 3: Create a VPC and Subnets
+# Step 3: VPC, Subnet, Internet Gateway, Route Table
 
 ## VPC
 ![image](https://user-images.githubusercontent.com/80022917/149264088-5667b849-2148-40f7-93ce-529e57873b98.png)
@@ -97,6 +97,21 @@ Remain default setting and click the create button
 Repeat the above step to create 3 more subnets
 
 ![image](https://user-images.githubusercontent.com/80022917/149265089-558b426b-c508-4344-a75f-4a97909d6a10.png)
+
+## Internet Gateway
+![image](https://user-images.githubusercontent.com/80022917/149265526-c650db4e-f5f4-428a-9e09-f9f745a6dca0.png)
+![image](https://user-images.githubusercontent.com/80022917/149266032-b347d285-d787-4625-9b21-878ca66a1bc6.png)
+
+## Route Table (1 Public RT and 1 Private RT)
+![image](https://user-images.githubusercontent.com/80022917/149266239-8d646061-3b26-4de9-8e48-c282d755d8d7.png)
+![image](https://user-images.githubusercontent.com/80022917/149266424-19c0bb40-c6ea-44af-8d82-3ee4c4e6a212.png)
+![image](https://user-images.githubusercontent.com/80022917/149267184-31a828ef-d467-4443-80e5-1d86cbf13c35.png)
+
+All traffic go to the Internet Gateway
+
+Create another route table for private subnets
+![image](https://user-images.githubusercontent.com/80022917/149266853-02e1f763-677c-4738-bb36-4c3fd7537335.png)
+![image](https://user-images.githubusercontent.com/80022917/149266988-fca53cc3-90e9-4ae8-b73a-1128973f7b5f.png)
 
 
 # Step 4: Create Cluster, Task Definition and Service for ECS Fargate
