@@ -179,6 +179,8 @@ Create the service and wait
 ![image](https://user-images.githubusercontent.com/80022917/149277149-ad2da487-d59e-455c-9ea3-013598f328cd.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277266-a5cfdfb3-cc5c-4c9b-862b-fd67fdce4551.png)
 
+After you create the pipeline, it will not run successfully because the CodeBuild Role need one more permission
+
 Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 ![image](https://user-images.githubusercontent.com/80022917/149279156-592a6b81-84d0-4157-9325-79e655a7265c.png)
 
