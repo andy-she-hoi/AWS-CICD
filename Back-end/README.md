@@ -55,7 +55,7 @@ You may also find YOUR_AWS_ID (Account ID) on the top right conner
 ![image](https://user-images.githubusercontent.com/80022917/148495685-9f5b21da-6fb6-424e-979f-9fa9a3a32b76.png)
 
 
-Please provide a Task_Definition_Name for your ECS Task Definition and replace the code
+Please provide a Task_Definition_Name for your ECS Task Definition and replace the string "Task_Definition_Name" in the code below
 
 ```
 version: 0.2
