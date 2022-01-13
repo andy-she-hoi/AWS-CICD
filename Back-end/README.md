@@ -84,7 +84,22 @@ artifacts:
 
 Upload these 2 files into the root directory of your Bitbucket repo
 
-# Step 3: Create Cluster, Task Definition and Service for ECS Fargate
+# Step 3: Create a VPC and Subnets
+
+## VPC
+![image](https://user-images.githubusercontent.com/80022917/149264088-5667b849-2148-40f7-93ce-529e57873b98.png)
+
+Remain default setting and click the create button
+
+## Subnets (2 Public Subnets and 2 Private Subnets)
+![image](https://user-images.githubusercontent.com/80022917/149264456-8882db8f-80f6-4f37-b08d-38ec52efa063.png)
+
+Repeat the above step to create 3 more subnets
+
+![image](https://user-images.githubusercontent.com/80022917/149265089-558b426b-c508-4344-a75f-4a97909d6a10.png)
+
+
+# Step 4: Create Cluster, Task Definition and Service for ECS Fargate
 
 ## Cluster
 ![image](https://user-images.githubusercontent.com/80022917/148495158-80aa45ef-9799-468c-bec9-dabf1feef819.png)
