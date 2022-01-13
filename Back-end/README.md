@@ -157,6 +157,8 @@ In the final stage, we will create a Codepipeline which will update your Task De
 
 So you do not need to care about the image URI yet, you may use the ECR Repo URI to fill this box but the task will not run successfully
 ![image](https://user-images.githubusercontent.com/80022917/148494687-deceba8f-5a0e-4e39-b445-b82faad4b222.png)
+## Please make sure the Port Mapping is the same as in Dockerfile
+
 ![image](https://user-images.githubusercontent.com/80022917/148494891-a19b1b64-612d-4d6a-9bfe-a4b10eb1c696.png)
 
  Click the Create at the bottom
