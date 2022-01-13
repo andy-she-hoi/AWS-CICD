@@ -54,6 +54,9 @@ You may also find YOUR_AWS_ID (Account ID) on the top right conner
 
 ![image](https://user-images.githubusercontent.com/80022917/148495685-9f5b21da-6fb6-424e-979f-9fa9a3a32b76.png)
 
+
+Please provide a Task_Definition_Name for your ECS Task Definition and replace the code
+
 ```
 version: 0.2
 
@@ -77,7 +80,7 @@ phases:
       - echo Pushing the Docker images...
       - docker push $REPOSITORY_URI:$COMMIT_HASH
       - echo Writing image definitions file...
-      - printf '[{"name":"skipq-app","imageUri":"%s"}]' $REPOSITORY_URI:$COMMIT_HASH > imagedefinitions.json
+      - printf '[{"name":"Task_Definition_Name","imageUri":"%s"}]' $REPOSITORY_URI:$COMMIT_HASH > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json
 ```
@@ -173,6 +176,9 @@ Create the service and wait
 ![image](https://user-images.githubusercontent.com/80022917/149277114-194b8ea2-b5cb-45fe-8d33-0f818bade6c9.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277149-ad2da487-d59e-455c-9ea3-013598f328cd.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277266-a5cfdfb3-cc5c-4c9b-862b-fd67fdce4551.png)
+
+Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
+![image](https://user-images.githubusercontent.com/80022917/149279156-592a6b81-84d0-4157-9325-79e655a7265c.png)
 
 
 # References:
