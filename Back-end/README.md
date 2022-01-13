@@ -113,11 +113,28 @@ Create another route table for private subnets
 ![image](https://user-images.githubusercontent.com/80022917/149266853-02e1f763-677c-4738-bb36-4c3fd7537335.png)
 ![image](https://user-images.githubusercontent.com/80022917/149266988-fca53cc3-90e9-4ae8-b73a-1128973f7b5f.png)
 
+# Step 4: Create Security Group, Target Group and Application Load Balancer
 
-# Step 4: Create Cluster, Task Definition and Service for ECS Fargate
+## Security Group
+![image](https://user-images.githubusercontent.com/80022917/149270019-e42d7fd9-02b9-4f43-803f-3c043dab21bc.png)
+
+## Target Group
+![image](https://user-images.githubusercontent.com/80022917/149270723-06d30f9d-6816-4546-8155-9a9d0dcb94ba.png)
+![image](https://user-images.githubusercontent.com/80022917/149270864-802fbd74-51ee-4e5f-8a44-fcf023f10d45.png)
+
+## Application Load Balancer
+![image](https://user-images.githubusercontent.com/80022917/149269508-c28c2ac7-1147-49d7-b13c-b49174e2cb55.png)
+![image](https://user-images.githubusercontent.com/80022917/149271360-44190085-c2db-4309-b17d-e7e35a79825f.png)
+![image](https://user-images.githubusercontent.com/80022917/149271313-8a29e2e2-283a-44d2-bc32-d992cb0d03fa.png)
+![image](https://user-images.githubusercontent.com/80022917/149271536-7192b176-f3b3-404b-a983-520dc506a75c.png)
+
+
+
+# Step 5: Create Cluster, Task Definition and Service for ECS Fargate
 
 ## Cluster
 ![image](https://user-images.githubusercontent.com/80022917/148495158-80aa45ef-9799-468c-bec9-dabf1feef819.png)
+![image](https://user-images.githubusercontent.com/80022917/149267797-2beec2f1-ae69-4874-8f93-b0d495ca9440.png)
 
 ## Task Definition
 ![image](https://user-images.githubusercontent.com/80022917/148493878-88d0050a-8ddd-4fac-8558-737fdc3c81cc.png)
@@ -132,6 +149,8 @@ Click the button to add container
  Click the Create at the bottom
  
  ## Service
+![image](https://user-images.githubusercontent.com/80022917/149268774-b54dd730-dc4c-4dff-ae2d-77736e0c30b6.png)
+![image](https://user-images.githubusercontent.com/80022917/149268849-ed950773-aa6e-4d2b-bc59-fb147c2def66.png)
 
 
 # References:
