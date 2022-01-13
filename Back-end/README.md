@@ -135,7 +135,6 @@ Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/149271536-7192b176-f3b3-404b-a983-520dc506a75c.png)
 
 
-
 # Step 5: Create Cluster, Task Definition and Service for ECS Fargate
 
 ## Cluster
@@ -162,7 +161,18 @@ Click the button to add container
 ![image](https://user-images.githubusercontent.com/80022917/149275597-0c3752af-dc59-45bb-bd2f-aa470cb99ee9.png)
 ![image](https://user-images.githubusercontent.com/80022917/149275647-ba8e55a5-d58e-4ea2-b5f9-8de1097c589b.png)
 ![image](https://user-images.githubusercontent.com/80022917/149275723-cd38d9ce-2704-4bfe-a061-6725190161c9.png)
+![image](https://user-images.githubusercontent.com/80022917/149275824-32543d83-897b-4789-b6f6-8fe078c32026.png)
 
+Create the service and wait 
+
+# Step 6: Create Codepipeline
+![image](https://user-images.githubusercontent.com/80022917/149276477-0e1f7d95-75b0-4b1e-ae66-5f031463dcfb.png)
+![image](https://user-images.githubusercontent.com/80022917/149278433-0c999689-c03e-4f1a-b21d-e4a0ea5f8b56.png)
+![image](https://user-images.githubusercontent.com/80022917/149276715-01038b4e-66df-425b-ab55-0623c133e213.png)
+![image](https://user-images.githubusercontent.com/80022917/149277033-c5d63ce3-e298-4f52-a666-c215602c42fa.png)
+![image](https://user-images.githubusercontent.com/80022917/149277114-194b8ea2-b5cb-45fe-8d33-0f818bade6c9.png)
+![image](https://user-images.githubusercontent.com/80022917/149277149-ad2da487-d59e-455c-9ea3-013598f328cd.png)
+![image](https://user-images.githubusercontent.com/80022917/149277266-a5cfdfb3-cc5c-4c9b-862b-fd67fdce4551.png)
 
 
 # References:
