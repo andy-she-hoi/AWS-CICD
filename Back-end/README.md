@@ -122,7 +122,7 @@ Create another route table for private subnets
 Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/149273761-cf67c6b1-2be0-43cf-87e8-7c8bd8130d39.png)
 
-# Step 4: Create Security Group, Target Group and Application Load Balancer
+# Step 4: Security Group, Target Group and Application Load Balancer
 
 ## Security Group
 ![image](https://user-images.githubusercontent.com/80022917/149270019-e42d7fd9-02b9-4f43-803f-3c043dab21bc.png)
@@ -138,7 +138,7 @@ Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/149271536-7192b176-f3b3-404b-a983-520dc506a75c.png)
 
 
-# Step 5: Create Cluster, Task Definition and Service for ECS Fargate
+# Step 5: Cluster, Task Definition and Service for ECS Fargate
 
 ## Cluster
 ![image](https://user-images.githubusercontent.com/80022917/148495158-80aa45ef-9799-468c-bec9-dabf1feef819.png)
@@ -154,6 +154,7 @@ Add the NAT Gateway to the Route
 Click the button to add container
 
 In the final stage, we will create a Codepipeline which will update your Task Definition automatically based on the buildspec.yml
+
 So you do not need to care about the image URI yet, you may use the ECR Repo URI to fill this box but the task will not run successfully
 ![image](https://user-images.githubusercontent.com/80022917/148494687-deceba8f-5a0e-4e39-b445-b82faad4b222.png)
 ![image](https://user-images.githubusercontent.com/80022917/148494891-a19b1b64-612d-4d6a-9bfe-a4b10eb1c696.png)
@@ -185,6 +186,12 @@ After you create the pipeline, it will not run successfully because the CodeBuil
 
 Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 ![image](https://user-images.githubusercontent.com/80022917/149290125-d5a107d8-a809-45bf-ae62-8e362dbe34af.png)
+
+# Step 7: Check the Health Status
+![image](https://user-images.githubusercontent.com/80022917/149291602-26d6baee-9a91-47a8-80e4-c81e83708817.png)
+
+Copy the DNS name of your Application Load Balancer and run it in the browser
+![image](https://user-images.githubusercontent.com/80022917/149292104-55046d7f-428c-4eca-bbe4-208c3ac9121b.png)
 
 
 
