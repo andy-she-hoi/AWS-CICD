@@ -194,10 +194,12 @@ Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 ![image](https://user-images.githubusercontent.com/80022917/149333280-6411be94-a06c-474f-849e-4ef1a319b83f.png)
 ![image](https://user-images.githubusercontent.com/80022917/149333624-d1bbdb81-f8e5-461b-baae-ad9da17a30a5.png)
 
+## Completed
+![image](https://user-images.githubusercontent.com/80022917/149291602-26d6baee-9a91-47a8-80e4-c81e83708817.png)
+![image](https://user-images.githubusercontent.com/80022917/149333947-83398a00-2101-442d-863c-764d35c348c5.png)
+
 
 # Step 7: Check the Health Status
-![image](https://user-images.githubusercontent.com/80022917/149291602-26d6baee-9a91-47a8-80e4-c81e83708817.png)
-
 ![image](https://user-images.githubusercontent.com/80022917/149292104-55046d7f-428c-4eca-bbe4-208c3ac9121b.png)
 Copy the DNS name of your Application Load Balancer and run it in the browser
 ![image](https://user-images.githubusercontent.com/80022917/149328146-84dad1e4-97f3-4321-953a-d1e587f7e9cb.png)
