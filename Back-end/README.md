@@ -189,6 +189,12 @@ After you create the pipeline, it will not run successfully because the CodeBuil
 Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 ![image](https://user-images.githubusercontent.com/80022917/149290125-d5a107d8-a809-45bf-ae62-8e362dbe34af.png)
 
+## When Codepipeline is triggered automatically or manually retry, a new Task Definition will be generated, and the latest revision will be used when deploying to ECS. You need to ensure that the revision of the task definition used in the current task is the latest. If the revision of the currently running task is not the latest, you need to deregister the previous revision first, and then stop those tasks using the previous revision.
+
+![image](https://user-images.githubusercontent.com/80022917/149333280-6411be94-a06c-474f-849e-4ef1a319b83f.png)
+![image](https://user-images.githubusercontent.com/80022917/149333624-d1bbdb81-f8e5-461b-baae-ad9da17a30a5.png)
+
+
 # Step 7: Check the Health Status
 ![image](https://user-images.githubusercontent.com/80022917/149291602-26d6baee-9a91-47a8-80e4-c81e83708817.png)
 
