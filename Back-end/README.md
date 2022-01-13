@@ -102,8 +102,8 @@ Repeat the above step to create 3 more subnets
 ![image](https://user-images.githubusercontent.com/80022917/149265089-558b426b-c508-4344-a75f-4a97909d6a10.png)
 
 ## Internet Gateway
-![image](https://user-images.githubusercontent.com/80022917/149265526-c650db4e-f5f4-428a-9e09-f9f745a6dca0.png)
-![image](https://user-images.githubusercontent.com/80022917/149266032-b347d285-d787-4625-9b21-878ca66a1bc6.png)
+![image](https://user-images.githubusercontent.com/80022917/149297763-caa700cb-145b-4eb1-a18d-2f4ff2517260.png)
+![image](https://user-images.githubusercontent.com/80022917/149297832-fce87739-4bb7-4804-a496-fbc98e83bae4.png)
 
 ## NAT Gateway
 ![image](https://user-images.githubusercontent.com/80022917/149273298-92c60d87-a845-4b8a-9113-11368bcca23c.png)
