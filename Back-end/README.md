@@ -193,7 +193,7 @@ Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 Copy the DNS name of your Application Load Balancer and run it in the browser
 ![image](https://user-images.githubusercontent.com/80022917/149292104-55046d7f-428c-4eca-bbe4-208c3ac9121b.png)
 
-Please DO NOT Forget to DELETE all resource, especially NAT Gateway and ECS
+## Please DO NOT Forget to DELETE all resource, especially NAT Gateway and ECS
 
 # References:
 
