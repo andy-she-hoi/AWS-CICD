@@ -84,7 +84,7 @@ artifacts:
 
 Upload these 2 files into the root directory of your Bitbucket repo
 
-# Step 3: VPC, Subnet, Internet Gateway, Route Table
+# Step 3: VPC, Subnet, Internet Gateway, NAT Gateway, Route Table
 
 ## VPC
 ![image](https://user-images.githubusercontent.com/80022917/149264088-5667b849-2148-40f7-93ce-529e57873b98.png)
@@ -102,6 +102,9 @@ Repeat the above step to create 3 more subnets
 ![image](https://user-images.githubusercontent.com/80022917/149265526-c650db4e-f5f4-428a-9e09-f9f745a6dca0.png)
 ![image](https://user-images.githubusercontent.com/80022917/149266032-b347d285-d787-4625-9b21-878ca66a1bc6.png)
 
+## NAT Gateway
+![image](https://user-images.githubusercontent.com/80022917/149273298-92c60d87-a845-4b8a-9113-11368bcca23c.png)
+
 ## Route Table (1 Public RT and 1 Private RT)
 ![image](https://user-images.githubusercontent.com/80022917/149266239-8d646061-3b26-4de9-8e48-c282d755d8d7.png)
 ![image](https://user-images.githubusercontent.com/80022917/149266424-19c0bb40-c6ea-44af-8d82-3ee4c4e6a212.png)
@@ -112,6 +115,9 @@ All traffic go to the Internet Gateway
 Create another route table for private subnets
 ![image](https://user-images.githubusercontent.com/80022917/149266853-02e1f763-677c-4738-bb36-4c3fd7537335.png)
 ![image](https://user-images.githubusercontent.com/80022917/149266988-fca53cc3-90e9-4ae8-b73a-1128973f7b5f.png)
+
+Add the NAT Gateway to the Route
+![image](https://user-images.githubusercontent.com/80022917/149273761-cf67c6b1-2be0-43cf-87e8-7c8bd8130d39.png)
 
 # Step 4: Create Security Group, Target Group and Application Load Balancer
 
