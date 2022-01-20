@@ -180,6 +180,8 @@ On the Configure records page, choose Create records.
 ![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
 ![image](https://user-images.githubusercontent.com/80022917/150338056-239f72ff-5e59-431d-84b8-a931d4efdd03.png)
 
+In Route 53, the ALB record (alb.example.link) will be used as the alias for the Application Load Balancer which is important for HTTPS requests
+
 DNS Validation
 ![image](https://user-images.githubusercontent.com/80022917/150338736-d863d361-9a06-4760-8404-b456855140f9.png)
 
