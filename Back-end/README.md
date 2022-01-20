@@ -125,7 +125,10 @@ Add the NAT Gateway to the Route
 # Step 4: Security Group, Target Group and Application Load Balancer
 
 ## Security Group
-![image](https://user-images.githubusercontent.com/80022917/149270019-e42d7fd9-02b9-4f43-803f-3c043dab21bc.png)
+![image](https://user-images.githubusercontent.com/80022917/150323817-421ecf71-eb8e-46dd-8b44-3fb3ec7a1dd1.png)
+![image](https://user-images.githubusercontent.com/80022917/150323873-48411bf0-e968-4737-98d1-b76def3ac7bf.png)
+![image](https://user-images.githubusercontent.com/80022917/150323921-bd73c23e-6770-4699-af2a-122af9c129de.png)
+
 
 ## Target Group
 ![image](https://user-images.githubusercontent.com/80022917/149270723-06d30f9d-6816-4546-8155-9a9d0dcb94ba.png)
@@ -135,7 +138,9 @@ Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/149269508-c28c2ac7-1147-49d7-b13c-b49174e2cb55.png)
 ![image](https://user-images.githubusercontent.com/80022917/149271360-44190085-c2db-4309-b17d-e7e35a79825f.png)
 ![image](https://user-images.githubusercontent.com/80022917/149271313-8a29e2e2-283a-44d2-bc32-d992cb0d03fa.png)
-![image](https://user-images.githubusercontent.com/80022917/149271536-7192b176-f3b3-404b-a983-520dc506a75c.png)
+![image](https://user-images.githubusercontent.com/80022917/150299551-f10ae779-b88b-49d1-92ae-26ef55536956.png)
+![image](https://user-images.githubusercontent.com/80022917/150299736-0720088e-f1bc-4278-8852-dbd3a830b861.png)
+
 
 
 # Step 5: Cluster, Task Definition and Service for ECS Fargate
