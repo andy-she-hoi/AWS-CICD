@@ -178,12 +178,12 @@ On the Configure records page, choose Create records.
 
 # Step 7: Request a certificate in AWS Certificate Manager
 ![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
-![image](https://user-images.githubusercontent.com/80022917/146711371-171a6654-0cbd-4e36-9c3c-69dfdc48c011.png)
+![image](https://user-images.githubusercontent.com/80022917/150338056-239f72ff-5e59-431d-84b8-a931d4efdd03.png)
 
 DNS Validation
-![alt text](https://github.com/andy-she-hoi/AWS-Frontend-CICD/blob/main/Image/acm.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/80022917/150338736-d863d361-9a06-4760-8404-b456855140f9.png)
 
-After the verification is successful, you will see that the status of your certificate becomes Issued, and there are 2 more records in the Hosted Zone of Route 53.
+After the verification is successful, you will see that the status of your certificate becomes Issued, and there are 3 more records in the Hosted Zone of Route 53.
 
 # Step 8: Create a distribution in CloudFront
 
