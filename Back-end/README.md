@@ -141,6 +141,10 @@ Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/150299551-f10ae779-b88b-49d1-92ae-26ef55536956.png)
 ![image](https://user-images.githubusercontent.com/80022917/150299736-0720088e-f1bc-4278-8852-dbd3a830b861.png)
 
+Go to Route 53 and add a new Simple Routing record for the ALB
+![image](https://user-images.githubusercontent.com/80022917/150330614-7ccf258d-0806-461b-a7f6-877cf3a577af.png)
+
+
 
 
 # Step 5: Cluster, Task Definition and Service for ECS Fargate
