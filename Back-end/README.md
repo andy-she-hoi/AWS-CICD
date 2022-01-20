@@ -213,6 +213,10 @@ Attach the policy (AmazonEC2ContainerRegistryPowerUser) to your CodeBuild Role
 Copy the DNS name of your Application Load Balancer and run it in the browser
 ![image](https://user-images.githubusercontent.com/80022917/149328146-84dad1e4-97f3-4321-953a-d1e587f7e9cb.png)
 
+Alternatively, you can use the ALB record in Route 53 to redirect to the DNS
+![image](https://user-images.githubusercontent.com/80022917/150340985-44e9ebd2-16fe-4944-806d-0389cd81bc16.png)
+
+## Please pass the ALB record to the Dev team so they can connect the Frontend and the Backend
 
 ## Please DO NOT Forget to DELETE all resource, especially NAT Gateway, ECS, and Elastic IP
 
