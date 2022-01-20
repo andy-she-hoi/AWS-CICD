@@ -205,7 +205,7 @@ Copy the DNS name of your Application Load Balancer and run it in the browser
 ![image](https://user-images.githubusercontent.com/80022917/149328146-84dad1e4-97f3-4321-953a-d1e587f7e9cb.png)
 
 
-## Please DO NOT Forget to DELETE all resource, especially NAT Gateway and ECS
+## Please DO NOT Forget to DELETE all resource, especially NAT Gateway, ECS, and Elastic IP
 
 # References:
 
