@@ -9,3 +9,7 @@ _IAC: Cloudformation_
 _Monitoring: CloudWatch + Grafana_
 
 https://www.youtube.com/watch?v=y80Vn-FkBMc
+
+_Logging: CloudWatch + OpenSearch_
+
+https://www.youtube.com/watch?v=trFW03zP7Uw
