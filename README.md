@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=y80Vn-FkBMc
 _Logging: CloudWatch + OpenSearch_
 
 https://www.youtube.com/watch?v=trFW03zP7Uw
+
+_Alert: CloudWatch_
+
+https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-cloudwatch-sns-notifications.html
