@@ -152,7 +152,7 @@ The current AWS account created the bucket.
 
 In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
 
-For Evaluate target health, choose No.
+For Evaluate target health, choose Yes.
 
 Choose Define simple record.
 
@@ -170,7 +170,7 @@ Choose the S3 bucket, _for example, s3-website-ap-southeast-2.amazonaws.com (exa
 
 In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
 
-For Evaluate target health, choose No.
+For Evaluate target health, choose Yes.
 
 Choose Define simple record.
 
