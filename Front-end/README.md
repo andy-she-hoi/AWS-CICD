@@ -20,7 +20,9 @@ a) Please ensure names of S3 buckets are exactly the same with your domain (exam
 
 b) Select a region for your app (ap-southeast-2 is using for this tutorial)
 
-c) Remain the rest and create the bucket
+c) Enable the Bucket Versioning
+
+d) Remain the rest and create the bucket
 
 # Step 3: Change properties and permissions of S3 buckets
 
