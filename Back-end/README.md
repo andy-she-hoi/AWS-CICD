@@ -57,32 +57,31 @@ You may also find YOUR_AWS_ID (Account ID) on the top right conner
 
 Please provide a Task_Definition_Name for your ECS Task Definition and replace the string "Task_Definition_Name" in the code below
 
-```
+```  
 version: 0.2
 
 phases:
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
-      - aws --version
+      - echo Logging to Amazon ECR
       - aws ecr get-login-password --region ap-southeast-2 | docker login --username AWS --password-stdin CHANGE_HERE_1
       - REPOSITORY_URI=CHANGE_HERE_2
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
-
   build:
     commands:
-      - echo Build started on `date`
-      - echo Building the Docker image...
-      - docker build -t $REPOSITORY_URI:$COMMIT_HASH .
+      - echo Building the Docker image
+      - docker build --build-arg DB_URL=${DB_URL} --build-arg PROD_DB_URL=${PROD_DB_URL} --build-arg JWT_SECRET=${JWT_SECRET} --build-arg AWS_REGION=${AWS_REGION} --build-arg AWS_ACCESS_KEY=${AWS_ACCESS_KEY} --build-arg AWS_SECRET_KEY=${AWS_SECRET_KEY} --build-arg AWS_S3_BUCKET=${AWS_S3_BUCKET} -t $REPOSITORY_URI:$COMMIT_HASH .
   post_build:
     commands:
-      - echo Build completed on `date`
-      - echo Pushing the Docker images...
+      - echo Build completed
+      - echo Pushing the Docker image
       - docker push $REPOSITORY_URI:$COMMIT_HASH
-      - echo Writing image definitions file...
+      - echo Writing image definition files
       - printf '[{"name":"Task_Definition_Name","imageUri":"%s"}]' $REPOSITORY_URI:$COMMIT_HASH > imagedefinitions.json
+      - cat imagedefinitions.json
 artifacts:
-    files: imagedefinitions.json
+  files: 
+    - imagedefinitions.json
 ```
 
 Upload these 2 files into the root directory of your Bitbucket repo
