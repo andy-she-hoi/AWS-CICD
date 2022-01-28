@@ -126,8 +126,6 @@ Create a Hosted zone that the name of the hosted zone matches your domain name.
 
 Click into the Hosted zone just created and choose Create record.
 
-Choose Switch to wizard.
-
 Choose Simple routing, and choose Next.
 
 Choose Define simple record.
