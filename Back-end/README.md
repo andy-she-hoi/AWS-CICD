@@ -19,7 +19,17 @@ Please note that the node version and ENV may change
 
 Please ask the developer for the container port which will be used in the EXPOSE clause
 
-In this example, port 8081 will be used for containers
+_In this example, port 8081 will be used for containers_
+
+_Since the MongoDB Atlas is used as the database, the MongoDB connection string will need to be passed into the docker image_
+
+_You may also need other ARGs (build-time variables) such as JWT_SECRET (JSON Web Token)_
+
+_In this example, the App needs to read Image from S3, so there are a S3 bucket and keys of the IAM user with S3 permission_
+
+_All ARGs will be passed by using 'docker build --build-arg' in the Buildspec.yml_
+
+Please make sure you have the IAM user with S3 permission or you can remove ARGs AND ENVs if you do not need them
 
 ```
 FROM node:16-alpine as build
@@ -97,6 +107,7 @@ artifacts:
   files: 
     - imagedefinitions.json
 ```
+_Use this command if you do not have any ARGs, 'docker build -t $REPOSITORY_URI:$COMMIT_HASH .'_
 
 Upload these 2 files into the root directory of your Bitbucket repo
 
@@ -200,7 +211,10 @@ Create the service and wait
 # Step 6: Create Codepipeline
 ![image](https://user-images.githubusercontent.com/80022917/149276477-0e1f7d95-75b0-4b1e-ae66-5f031463dcfb.png)
 ![image](https://user-images.githubusercontent.com/80022917/149278433-0c999689-c03e-4f1a-b21d-e4a0ea5f8b56.png)
-![image](https://user-images.githubusercontent.com/80022917/149276715-01038b4e-66df-425b-ab55-0623c133e213.png)
+![image](https://user-images.githubusercontent.com/80022917/151482650-e6a2f999-23bb-48de-901f-2c275ea85c57.png)
+
+_You do NOT need these environment variables if they do not exist at your Buildspec.yml and Dockerfile_
+![image](https://user-images.githubusercontent.com/80022917/151487436-c1865b63-df87-458a-8ea0-c74bb51fcf19.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277033-c5d63ce3-e298-4f52-a666-c215602c42fa.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277114-194b8ea2-b5cb-45fe-8d33-0f818bade6c9.png)
 ![image](https://user-images.githubusercontent.com/80022917/149277149-ad2da487-d59e-455c-9ea3-013598f328cd.png)
