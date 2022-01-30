@@ -17,3 +17,6 @@ https://www.youtube.com/watch?v=trFW03zP7Uw
 _Alert: CloudWatch_
 
 https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-cloudwatch-sns-notifications.html
+
+
+![image](https://user-images.githubusercontent.com/80022917/151695739-33e90696-88e0-4054-ae6d-570eead77511.png)
