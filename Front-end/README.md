@@ -72,7 +72,7 @@ _You can delete the user after the connection is generated._
 <b>If you own the Bitbucket repo, click Connect to Bitbucket and then generate a connection</b>
 ![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
 
-Click the Create Project if needed
+Next page, click the Create Project button if needed
 ![image](https://user-images.githubusercontent.com/80022917/146712523-71dd9740-dce4-4428-aa39-9914d714891a.png)
 ![image](https://user-images.githubusercontent.com/80022917/146712544-ecb758f5-69e2-4350-951d-3f45deedff58.png)
 
