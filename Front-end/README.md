@@ -50,7 +50,8 @@ Attach CORS policy for the domain bucket
 ]
 ```
 AllowedMethods: please check with the developer
-AllowedOrigins: the best practice should be "https://Your—Bucket-Name"
+
+AllowedOrigins: the best practice should be "https://Your-Bucket-Name"
 
 For the subdomain bucket (www.example.link):
 
