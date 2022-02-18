@@ -129,7 +129,7 @@ artifacts:
 
 Click into the Hosted zone just created and choose Create record.
 
-(Switch to wizard) Choose Simple routing, and choose Next.
+(Switch to wizard if you have a different UI) Choose Simple routing, and choose Next.
 
 ![image](https://user-images.githubusercontent.com/80022917/154618303-7affd25b-36f9-4d75-a672-ee7a0b3dda7e.png)
 
