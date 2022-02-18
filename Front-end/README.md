@@ -157,6 +157,7 @@ In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS reso
 
 For Evaluate target health, choose Yes.
 
+
 Choose Define simple record.
 
 To add an alias record for your subdomain (www.example.com)
@@ -169,11 +170,12 @@ In Value/Route traffic to, choose Alias to S3 website endpoint.
 
 Choose the Region.
 
-Choose the S3 bucket, _for example, s3-website-ap-southeast-2.amazonaws.com (example.link)_
+Choose the S3 bucket, _for example, s3-website-ap-southeast-2.amazonaws.com (www.example.link)_
 
 In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
 
 For Evaluate target health, choose Yes.
+
 
 Choose Define simple record.
 
