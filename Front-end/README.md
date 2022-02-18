@@ -125,11 +125,13 @@ artifacts:
 
 # Step 6: Create a Hosted Zone
 
-Create a Hosted zone that the name of the hosted zone matches your domain name.
+![image](https://user-images.githubusercontent.com/80022917/154618248-269df183-f8dc-4be2-b2fc-ebd152d56ca8.png)
 
 Click into the Hosted zone just created and choose Create record.
 
-Choose Simple routing, and choose Next.
+(Switch to wizard) Choose Simple routing, and choose Next.
+
+![image](https://user-images.githubusercontent.com/80022917/154618303-7affd25b-36f9-4d75-a672-ee7a0b3dda7e.png)
 
 Choose Define simple record.
 
@@ -137,47 +139,15 @@ In Record name, accept the default value, which is the name of your hosted zone 
 
 In Value/Route traffic to, choose Alias to S3 website endpoint.
 
-Choose the Region.
-
-Choose the S3 bucket.
-
-The bucket name should match the name that appears in the Name box. In the Choose S3 bucket list, the bucket name appears with the Amazon S3 website endpoint for the Region where the bucket was created
-
-_for example, s3-website-ap-southeast-2.amazonaws.com (example.link)_
-
-Choose S3 bucket lists a bucket if:
-
-You configured the bucket as a static website.
-
-The bucket name is the same as the name of the record that you're creating.
-
-The current AWS account created the bucket.
-
-In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
+Choose the Region and the S3 bucket.
 
 For Evaluate target health, choose Yes.
 
-
-Choose Define simple record.
+![image](https://user-images.githubusercontent.com/80022917/154618448-9e4de57d-fcc8-4bf0-b5a8-7dda0a4494de.png)
 
 To add an alias record for your subdomain (www.example.com)
 
-Under Configure records, choose Define simple record.
-
-In Record name for your subdomain, type www.
-
-In Value/Route traffic to, choose Alias to S3 website endpoint.
-
-Choose the Region.
-
-Choose the S3 bucket, _for example, s3-website-ap-southeast-2.amazonaws.com (www.example.link)_
-
-In Record type, choose A ‐ Routes traffic to an IPv4 address and some AWS resources.
-
-For Evaluate target health, choose Yes.
-
-
-Choose Define simple record.
+![image](https://user-images.githubusercontent.com/80022917/154618654-55f12f05-2c07-4452-a55f-2fc568b72022.png)
 
 On the Configure records page, choose Create records.
 
