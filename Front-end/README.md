@@ -152,6 +152,8 @@ To add an alias record for your subdomain (www.example.com)
 On the Configure records page, choose Create records.
 
 # Step 7: Request a certificate in AWS Certificate Manager
+## Please ensure the region is us-east-1 before doing anything 
+
 ![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
 ![image](https://user-images.githubusercontent.com/80022917/150338056-239f72ff-5e59-431d-84b8-a931d4efdd03.png)
 
