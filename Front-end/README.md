@@ -160,6 +160,11 @@ In Route 53, the ALB record (alb.example.link) will be used as the alias for the
 DNS Validation
 ![image](https://user-images.githubusercontent.com/80022917/150338736-d863d361-9a06-4760-8404-b456855140f9.png)
 
+Please confirm all nameservers in Hosted Zone and Registered Domain are identical
+
+![image](https://user-images.githubusercontent.com/80022917/154638469-8f85e48d-e368-4f66-9eb4-38fc19225f9a.png)
+![image](https://user-images.githubusercontent.com/80022917/154638833-7d7b13e9-701f-4bab-9971-74004d76f5c4.png)
+
 Your new certificate might continue to display a status of Pending validation for up to 30 minutes
 
 After the verification is successful, you will see that the status of your certificate becomes Issued, and there are 3 more records in the Hosted Zone of Route 53.
