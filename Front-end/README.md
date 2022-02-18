@@ -61,34 +61,7 @@ Under the properties page, find the section Static website hosting and click Edi
 
 Please note that we do not need to edit Block public access (bucket settings) if we use Cloudfront
 
-# Step 4: Create a CodePipeline
-
-![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
-
-<b>If you do not own the Bitbucket repo, please create a User role in IAM for the repo owner, and ask the owner generate a connection</b>
-
-_You can delete the user after the connection is generated._
- 
-<b>If you own the Bitbucket repo, click Connect to Bitbucket and then generate a connection</b>
-![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
-
-Next page, choose the CodeBuild and then click the Create Project button if needed
-![image](https://user-images.githubusercontent.com/80022917/146712523-71dd9740-dce4-4428-aa39-9914d714891a.png)
-![image](https://user-images.githubusercontent.com/80022917/146712544-ecb758f5-69e2-4350-951d-3f45deedff58.png)
-
-More details of images can be founded: https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html
-
-![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
-
-_The UI will change after you tick the box (Extract file before deploy)_
-
-![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
-
-Review and create the pipeline
-
-_Please note that the pipeline will not run successfully because the buildspec.yml file is not yet available_
-
-# Step 5: Create the buildspec.yml
+# Step 4: Create the buildspec.yml
 
 <b>Upload the buildspec.yml to the root directory of the master branch</b>
 
@@ -122,6 +95,31 @@ artifacts:
   discard-paths: no
   base-directory: build
 ```
+
+# Step 5: Create a CodePipeline
+
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_1.jpg?raw=true)
+
+<b>If you do not own the Bitbucket repo, please create a User role in IAM for the repo owner, and ask the owner generate a connection</b>
+
+_You can delete the user after the connection is generated._
+ 
+<b>If you own the Bitbucket repo, click Connect to Bitbucket and then generate a connection</b>
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_2.jpg?raw=true)
+
+Next page, choose the CodeBuild and then click the Create Project button if needed
+![image](https://user-images.githubusercontent.com/80022917/146712523-71dd9740-dce4-4428-aa39-9914d714891a.png)
+![image](https://user-images.githubusercontent.com/80022917/146712544-ecb758f5-69e2-4350-951d-3f45deedff58.png)
+
+More details of images can be founded: https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html
+
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_3.jpg?raw=true)
+
+_The UI will change after you tick the box (Extract file before deploy)_
+
+![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/codepipeline_4.jpg?raw=true)
+
+Review and create the pipeline
 
 # Step 6: Create a Hosted Zone
 
