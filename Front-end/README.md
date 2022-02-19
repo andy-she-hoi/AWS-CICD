@@ -189,7 +189,7 @@ Subdomain: www.example.link
 
 # Step 10: Confirm the S3 bucket policy
 
-<b>Confirm YOUR_DOMAIN_BUCKET and YOUR_OAI</b>
+Substitute YOUR_DOMAIN_BUCKET and YOUR_OAI
 
 ```
 {
