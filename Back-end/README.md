@@ -157,6 +157,10 @@ Add the NAT Gateway to the Route
 ![image](https://user-images.githubusercontent.com/80022917/149270864-802fbd74-51ee-4e5f-8a44-fcf023f10d45.png)
 
 ## Application Load Balancer
+<b>Before creating an ALB, you have to request a public certificate which contains the alias of ALB's DNS in ap-southeast-2 (the region for ALB)</b>
+
+For example, alb.example.link is the alias of ALB's DNS in Route 53
+![image](https://user-images.githubusercontent.com/80022917/154801761-bc042799-8353-4d05-97b0-16f964063665.png)
 ![image](https://user-images.githubusercontent.com/80022917/149269508-c28c2ac7-1147-49d7-b13c-b49174e2cb55.png)
 ![image](https://user-images.githubusercontent.com/80022917/149271360-44190085-c2db-4309-b17d-e7e35a79825f.png)
 ![image](https://user-images.githubusercontent.com/80022917/149271313-8a29e2e2-283a-44d2-bc32-d992cb0d03fa.png)
