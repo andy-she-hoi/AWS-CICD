@@ -153,12 +153,10 @@ On the Configure records page, choose Create records.
 <b>Please ensure the region is us-east-1 before doing anything</b>
 
 ![image](https://user-images.githubusercontent.com/80022917/146711296-43b00f2c-0bb4-4329-9547-aa66be16f2b2.png)
-![image](https://user-images.githubusercontent.com/80022917/150338056-239f72ff-5e59-431d-84b8-a931d4efdd03.png)
-
-In Route 53, the ALB record (alb.example.link) will be used as the alias for the Application Load Balancer which is important for HTTPS requests
+![image](https://user-images.githubusercontent.com/80022917/154801913-e824cf6a-81f9-4b93-b0b4-fe1dd2e41b85.png)
 
 DNS Validation
-![image](https://user-images.githubusercontent.com/80022917/150338736-d863d361-9a06-4760-8404-b456855140f9.png)
+![image](https://user-images.githubusercontent.com/80022917/154801855-ccce7f87-406b-4633-9892-143c0ba693dc.png)
 
 Please confirm all nameservers in Hosted Zone and Registered Domain are identical
 
