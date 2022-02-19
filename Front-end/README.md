@@ -187,9 +187,9 @@ Subdomain: www.example.link
 
 ![alt text](https://github.com/andy-she-hoi/AWS-CICD/blob/main/Image/hosted_zone_2.jpg?raw=true)
 
-# Step 10: Update the S3 bucket policy
+# Step 10: Confirm the S3 bucket policy
 
-<b>Replace YOUR_DOMAIN_BUCKET and YOUR_OAI</b>
+<b>Confirm YOUR_DOMAIN_BUCKET and YOUR_OAI</b>
 
 ```
 {
@@ -203,15 +203,6 @@ Subdomain: www.example.link
             },
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::YOUR_DOMAIN_BUCKET/*"
-        },
-        {
-            "Sid": "2",
-            "Effect": "Allow",
-            "Principal": {
-                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity YOUR_OAI"
-            },
-            "Action": "s3:ListBucket",
-            "Resource": "arn:aws:s3:::YOUR_DOMAIN_BUCKET"
         }
     ]
 }
