@@ -36,7 +36,6 @@ FROM node:16-alpine as build
 
 WORKDIR /apis
 
-ARG DB_URL
 ARG PROD_DB_URL
 ARG JWT_SECRET
 ARG AWS_REGION
@@ -44,7 +43,6 @@ ARG AWS_ACCESS_KEY
 ARG AWS_SECRET_KEY
 ARG AWS_S3_BUCKET
 ENV PATH /apis/node_modules/.bin:$PATH
-ENV DB_URL=${DB_URL}
 ENV PROD_DB_URL=${PROD_DB_URL}
 ENV JWT_SECRET=${JWT_SECRET}
 ENV AWS_REGION=${AWS_REGION}
@@ -94,7 +92,7 @@ phases:
   build:
     commands:
       - echo Building the Docker image
-      - docker build --build-arg DB_URL=${DB_URL} --build-arg PROD_DB_URL=${PROD_DB_URL} --build-arg JWT_SECRET=${JWT_SECRET} --build-arg AWS_REGION=${AWS_REGION} --build-arg AWS_ACCESS_KEY=${AWS_ACCESS_KEY} --build-arg AWS_SECRET_KEY=${AWS_SECRET_KEY} --build-arg AWS_S3_BUCKET=${AWS_S3_BUCKET} -t $REPOSITORY_URI:$COMMIT_HASH .
+      - docker build --build-arg PROD_DB_URL=${PROD_DB_URL} --build-arg JWT_SECRET=${JWT_SECRET} --build-arg AWS_REGION=${AWS_REGION} --build-arg AWS_ACCESS_KEY=${AWS_ACCESS_KEY} --build-arg AWS_SECRET_KEY=${AWS_SECRET_KEY} --build-arg AWS_S3_BUCKET=${AWS_S3_BUCKET} -t $REPOSITORY_URI:$COMMIT_HASH .
   post_build:
     commands:
       - echo Build completed
