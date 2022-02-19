@@ -160,7 +160,7 @@ DNS Validation
 
 Please confirm all nameservers in Hosted Zone and Registered Domain are identical
 
-![image](https://user-images.githubusercontent.com/80022917/154638469-8f85e48d-e368-4f66-9eb4-38fc19225f9a.png)
+![image](https://user-images.githubusercontent.com/80022917/154801970-65599175-8d9d-4b69-9ad4-c221faf94132.png)
 ![image](https://user-images.githubusercontent.com/80022917/154638833-7d7b13e9-701f-4bab-9971-74004d76f5c4.png)
 
 Your new certificate might continue to display a status of Pending validation for up to 30 minutes
