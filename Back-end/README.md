@@ -247,6 +247,8 @@ Alternatively, you can use the ALB record in Route 53 to redirect to the DNS
 
 ## Please pass the ALB record to the Dev team so they can connect the Frontend and the Backend
 
+To test your API server, you can use Postman or https://reqbin.com/
+
 ## Please DO NOT Forget to DELETE all resource, especially NAT Gateway, ECS, and Elastic IP
 
 # References:
