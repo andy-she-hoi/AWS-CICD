@@ -66,4 +66,5 @@ terraform destroy -var-file='example.tfvars' --auto-approve
 
 ## Confirm you have DELETED all resources on console, especially NAT, ECS, and Elastic IP
 
-# Reference: https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+# Reference: 
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
