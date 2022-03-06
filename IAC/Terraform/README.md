@@ -63,3 +63,5 @@ terraform workspace select prod
 
 terraform destroy -var-file='example.tfvars' --auto-approve
 ```
+
+## Please confirm that you have DELETED all resource on AWS console, especially NAT Gateway, ECS, and Elastic IP
