@@ -42,9 +42,22 @@ List all workspaces to confirm your current workspace
 terraform workspace list
 ```
 
-Change all variables in the prod.tfvars and then run:
+Change all variables in the backend.tf and prod.tfvars and then run:
 ```
+terraform init
+
 terraform apply -var-file='prod.tfvars' --auto-approve
 ```
 
+Destroy all resources
+```
+terraform destroy -var-file='prod.tfvars' --auto-approve
+```
 
+
+Under the directory 'Terraform/application/remote_backend', destroy the remote backend
+```
+terraform workspace select prod
+
+terraform destroy -var-file='example.tfvars' --auto-approve
+```
