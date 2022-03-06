@@ -10,8 +10,11 @@ List all workspaces to confirm your current workspace
 terraform workspace list
 ```
 
-Change all variables in the prod.tfvars and then run
+Change all variables in the backend.tf and prod.tfvars and then run
+
 ```
+terraform init
+
 terraform apply -var-file='prod.tfvars' --auto-approve
 ```
 
