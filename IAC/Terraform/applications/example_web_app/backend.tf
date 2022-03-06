@@ -2,10 +2,10 @@ terraform {
   backend "s3" {
     encrypt              = true
     region               = "ap-southeast-2"
-    bucket               = "skipq-terraform-state"
-    workspace_key_prefix = "skipq"
-    key                  = "skipq.tfstate"
-    dynamodb_table       = "skipq-terraform-state-locking" 
+    bucket               = "APP_NAME-terraform-state"
+    workspace_key_prefix = "APP_NAME"
+    key                  = "APP_NAME.tfstate"
+    dynamodb_table       = "APP_NAME-terraform-state-locking" 
     profile              = "default"
   }
 }
