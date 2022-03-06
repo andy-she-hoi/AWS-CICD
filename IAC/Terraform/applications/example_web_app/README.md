@@ -26,3 +26,5 @@ Destroy all resources
 ```
 terraform destroy -var-file='prod.tfvars' --auto-approve
 ```
+
+## Confirm you have DELETED all resources on console, especially NAT, ECS, and Elastic IP
