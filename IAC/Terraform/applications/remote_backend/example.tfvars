@@ -1,1 +1,1 @@
-app_name = "skipq"
+app_name = "example"
