@@ -65,4 +65,4 @@ _Remember to update the buildspec.yml (REPOSITORY_URI and ECS_Container_Name)_
 ## Confirm you have DELETED all resources on console, especially NAT, ECS, and Elastic IP
 
 # Reference: 
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+https://www.terraform.io/cloud-docs
