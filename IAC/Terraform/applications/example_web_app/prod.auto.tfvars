@@ -1,7 +1,5 @@
 domain_name        = "skipq.link"
 
-hosted_zone_name   = "skipq.link"
-
 subdomain_name     = "www.skipq.link"
 
 alb_domain         = "alb.skipq.link"
