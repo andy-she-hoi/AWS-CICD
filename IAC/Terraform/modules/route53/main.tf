@@ -1,9 +1,12 @@
-data "aws_route53_zone" "hosted_zone" {
-  name = "${var.domain_name}."
+# data "aws_route53_zone" "hosted_zone" {
+#   name = var.domain_name
+# }
+variable zone_id {
+  default = "Z023651229KFITP28W249"
 }
 
 resource "aws_route53_record" "record" {
-  zone_id = data.aws_route53_zone.hosted_zone.zone_id
+  zone_id = var.zone_id # data.aws_route53_zone.hosted_zone.zone_id
   name    = var.record_name
 
   type    = "A"
@@ -16,5 +19,5 @@ resource "aws_route53_record" "record" {
 }
 
 output "zone_id" {
-  value = data.aws_route53_zone.hosted_zone.zone_id
+  value = var.zone_id # data.aws_route53_zone.hosted_zone.zone_id
 }
