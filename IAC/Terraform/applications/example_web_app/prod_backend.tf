@@ -51,7 +51,6 @@ module "prod_alb_route53_record" {
 
   source = "../../modules/route53"
   
-  hosted_zone_name     = var.hosted_zone_name
   domain_name          = var.domain_name
   record_name          = var.alb_domain
   records_domain_name  = module.prod_alb[0].alb_dns_name
