@@ -1,7 +1,3 @@
-variable "hosted_zone_name" {
-  description = "hosted_zone_name"
-}
-
 variable "domain_name" {
   description = "domain_name"
 }
