@@ -1,9 +1,6 @@
 data "aws_route53_zone" "hosted_zone" {
-  name = "skipq.link."# var.domain_name
+  name = join("", [var.domain, "."])
 }
-# variable zone_id {
-#   default = "Z023651229KFITP28W249"
-# }
 
 resource "aws_route53_record" "record" {
   zone_id = data.aws_route53_zone.hosted_zone.zone_id
