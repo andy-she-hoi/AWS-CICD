@@ -48,7 +48,6 @@ module "prod_cloudfront_route53_record" {
 
   source = "../../modules/route53"
   
-  hosted_zone_name     = var.hosted_zone_name
   domain_name          = var.domain_name
   record_name          = var.domain_name
   records_domain_name  = module.prod_cloudfront[0].cloudfront_domain_name
@@ -60,7 +59,6 @@ module "prod_redirect_route53_record" {
 
   source = "../../modules/route53"
   
-  hosted_zone_name     = var.hosted_zone_name
   domain_name          = var.domain_name
   record_name          = var.subdomain_name
   records_domain_name  = module.prod_cloudfront[0].cloudfront_domain_name
