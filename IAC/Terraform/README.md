@@ -1,4 +1,6 @@
-# Terrafrom
+# Terrafrom with S3 Backend
+
+A Terraform Cloud version is available here: https://github.com/andy-she-hoi/AWS-CICD/blob/terraform_cloud/IAC/Terraform/README.md
 
 # Step 1: Create Hosted Zone in Route 53
 
