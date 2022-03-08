@@ -75,4 +75,6 @@ module "prod_ecs" {
     assign_public_ip            = var.assign_public_ip
     avg_cpu_target              = var.avg_cpu_target
     avg_memory_target           = var.avg_memory_target
+      
+    depends_on = [module.prod_ecr, module.prod_alb, module.prod_networking]
 }
