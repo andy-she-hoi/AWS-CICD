@@ -30,12 +30,17 @@ Terraform Working Directory: IAC/Terraform/applications/example_web_app/
 
 VCS branch: terraform_cloud
 
-# Step 4: Update the prod.auto.tfvars file
+# Step 4: Add your AWS credential to your workspace as ENV variables
+
+![image](https://user-images.githubusercontent.com/80022917/157154916-5b78941d-33fc-4505-9bde-d5382ed1ac92.png)
+![image](https://user-images.githubusercontent.com/80022917/157154729-1421e50b-a2b1-4c97-9e47-126512809275.png)
+
+# Step 5: Update the prod.auto.tfvars file
 
 Update variables, especially _domain，subdomain and alb_domain_
 ![image](https://user-images.githubusercontent.com/80022917/157154146-b00a4461-2767-479c-8cbf-dd011588709b.png)
 
-# Step 5: Create AWS resources for Production environment
+# Step 6: Create AWS resources for Production environment
 
 ![image](https://user-images.githubusercontent.com/80022917/157150112-54b7c1e2-48a4-4c85-81e7-91cb7a2bcf9a.png)
 
