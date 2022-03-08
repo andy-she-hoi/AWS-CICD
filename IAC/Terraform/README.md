@@ -32,7 +32,12 @@ terraform apply -var-file='example.tfvars' --auto-approve
 
 # Step 4: Create AWS resources for Production environment
 
-Run the following commands under the directory 'Terraform/application/example_web_app'
+Change directory to 'Terraform/application/example_web_app'
+
+Update the variables in backend.tf
+![image](https://user-images.githubusercontent.com/80022917/157229510-84df4c07-ce73-4d63-ac7f-879ddc6751ef.png)
+
+More examples: https://www.terraform.io/language/settings/backends/s3
 
 Create and switch to a new workspace, e.g. prod
 ```
