@@ -1,12 +1,12 @@
-domain_name        = "example.link"
+domain_name        = "skipq.link"
 
-hosted_zone_name   = "example.link"
+hosted_zone_name   = "skipq.link"
 
-subdomain_name     = "www.example.link"
+subdomain_name     = "www.skipq.link"
 
-alb_domain         = "alb.example.link"
+alb_domain         = "alb.skipq.link"
 
-app_name           = "example"
+app_name           = "skipq"
 
 environment        = "prod"
 
