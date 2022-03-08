@@ -57,7 +57,10 @@ _Remember to update the buildspec.yml (REPOSITORY_URI and ECS_Container_Name)_
 
 # Step 5: Clean up
 
-
+![image](https://user-images.githubusercontent.com/80022917/157156197-8995401b-f655-4235-9f89-9b60d10af527.png)
+![image](https://user-images.githubusercontent.com/80022917/157156248-aaac43ef-be8c-47bb-8ce4-4e257c5fb4cb.png)
+![image](https://user-images.githubusercontent.com/80022917/157156314-8a984f65-5846-4bc6-972a-097cc49b0788.png)
+![image](https://user-images.githubusercontent.com/80022917/157156447-26dca291-bcc0-4dea-8362-14a5503fcf20.png)
 
 ## Confirm you have DELETED all resources on console, especially NAT, ECS, and Elastic IP
 
