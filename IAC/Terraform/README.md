@@ -1,4 +1,5 @@
-# Terrafrom
+# Terrafrom Cloud
+
 
 # Step 1: Create Hosted Zone in Route 53
 
@@ -9,48 +10,33 @@ Please confirm all nameservers in Hosted Zone and Registered Domain are identica
 ![image](https://user-images.githubusercontent.com/80022917/156780481-4d7c1c9a-c6df-464a-94fa-f09d390d4227.png)
 ![image](https://user-images.githubusercontent.com/80022917/156780592-a594b3de-2731-45c8-8376-f92007cb30a9.png)
 
-# Step 2: Install Terraform and AWS CLI
+# Step 2: Create your Terraform Cloud account
 
-Terraform : https://learn.hashicorp.com/tutorials/terraform/install-cli
+https://app.terraform.io/app/
 
-AWS CLI : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+# Step 3: Create a workspace on Terraform Cloud
 
-# Step 3: Create a remote backend for Terraform
+![image](https://user-images.githubusercontent.com/80022917/157151179-fe889a0a-ea6c-4cd0-baf5-9e13da60f637.png)
 
-Download the code, and then open your terminal and run the following commands under the directory 'Terraform/application/remote_backend'
+In this example, the code will be stored in GitHub
+![image](https://user-images.githubusercontent.com/80022917/157151278-c0f0548e-691f-4fc4-b8aa-49b5cdfcfefd.png)
+![image](https://user-images.githubusercontent.com/80022917/157151644-a9f4f2d5-1d90-44c4-9e68-06056eb23612.png)
+![image](https://user-images.githubusercontent.com/80022917/157152426-b8638cfc-575b-45f7-beb1-76f118729f57.png)
+![image](https://user-images.githubusercontent.com/80022917/157152542-a95d4a6f-0ca9-4ad7-a9d5-d551a3751083.png)
 
-```
-terraform init
-```
+Please update the Terraform Working Directory and VCS branch
 
-Change the value of the app_name in the example.tfvars and then run:
-```
-terraform apply -var-file='example.tfvars' --auto-approve
-```
+Terraform Working Directory: IAC/Terraform/applications/example_web_app/
+
+VCS branch: terraform_cloud
+
 
 # Step 4: Create AWS resources for Production environment
 
-Run the following commands under the directory 'Terraform/application/example_web_app'
+![image](https://user-images.githubusercontent.com/80022917/157150112-54b7c1e2-48a4-4c85-81e7-91cb7a2bcf9a.png)
 
-Create and switch to a new workspace, e.g. prod
-```
-terraform workspace new prod
-```
-
-List all workspaces to confirm your current workspace
-```
-terraform workspace list
-```
-
-Change all variables in the backend.tf and prod.tfvars and then run:
-```
-terraform init
-
-terraform apply -var-file='prod.tfvars' --auto-approve
-```
-Once completed, you can find the terraform state file in your APP_NAME-terraform-state bucket, specifically under the directory 'APP_NAME/Env_Name/'
-
-![image](https://user-images.githubusercontent.com/80022917/156918425-064a5860-b491-4d93-8659-73366678cc3e.png)
+You can find the terraform.tfstate file here
+![image](https://user-images.githubusercontent.com/80022917/157150607-98e9c845-12ff-4c65-aff5-8feec4d085bf.png)
 
 If you would like to use the AWS CodePipeline to deploy, please follow the instruction in the README.md 
 
@@ -62,17 +48,7 @@ _Remember to update the buildspec.yml (REPOSITORY_URI and ECS_Container_Name)_
 
 # Step 5: Clean up
 
-Destroy all resources
-```
-terraform destroy -var-file='prod.tfvars' --auto-approve
-```
 
-Under the directory 'Terraform/application/remote_backend', destroy the remote backend
-```
-terraform workspace select prod
-
-terraform destroy -var-file='example.tfvars' --auto-approve
-```
 
 ## Confirm you have DELETED all resources on console, especially NAT, ECS, and Elastic IP
 
