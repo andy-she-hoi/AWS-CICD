@@ -1,7 +1,5 @@
 domain_name        = "example.link"
 
-hosted_zone_name   = "example.link"
-
 subdomain_name     = "www.example.link"
 
 alb_domain         = "alb.example.link"
