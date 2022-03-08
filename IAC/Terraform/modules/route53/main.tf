@@ -1,5 +1,5 @@
 data "aws_route53_zone" "hosted_zone" {
-  name = join("", [var.domain, "."])
+  name = join("", [${var.domain}, "."])
 }
 
 resource "aws_route53_record" "record" {
