@@ -8,11 +8,6 @@ variable "subdomain_name" {
   description = "The subdomain name for the website."
 }
 
-variable "hosted_zone_name" {
-  type        = string
-  description = "hosted_zone_name"
-}
-
 variable "app_name" {
   type        = string
   description = "app_name"
