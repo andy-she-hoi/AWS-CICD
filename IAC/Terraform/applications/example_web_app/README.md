@@ -10,8 +10,13 @@ List all workspaces to confirm your current workspace
 terraform workspace list
 ```
 
-Change all variables in the backend.tf and prod.tfvars and then run
+Change all variables in the backend.tf and prod.tfvars
 
+![image](https://user-images.githubusercontent.com/80022917/157229510-84df4c07-ce73-4d63-ac7f-879ddc6751ef.png)
+
+More examples: https://www.terraform.io/language/settings/backends/s3
+
+Run the following commands to start
 ```
 terraform init
 
