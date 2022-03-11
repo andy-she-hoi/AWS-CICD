@@ -21,6 +21,6 @@ https://www.youtube.com/watch?v=trFW03zP7Uw
 
 ![b337c065cd4da1558091942e8a947c8](https://user-images.githubusercontent.com/80022917/151695923-74f86f13-9b0c-4d03-ac23-3162186bd952.png)
 
-_Alert: CloudWatch_
+_Alert: CloudWatch + SNS_
 
 https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-cloudwatch-sns-notifications.html
