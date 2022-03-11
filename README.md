@@ -1,16 +1,13 @@
 # AWS-Web Application Deployment
 
-![image](https://user-images.githubusercontent.com/80022917/151695739-33e90696-88e0-4054-ae6d-570eead77511.png)
+![image](https://user-images.githubusercontent.com/80022917/157795493-56a41e26-fbb4-4ca0-a64e-2a371c878299.png)
+
 
 _Front-end: BitBucket + CodePipeline + S3 + Route 53 + CloudFront_
 ![image](https://user-images.githubusercontent.com/80022917/151695841-1910f2cd-6d09-412a-b79e-2f608951d5a1.png)
 
 _Back-end: BitBucket + CodePipeline + ECR + ECS Fargate + Application Load Balancer + NAT Gateway_
 ![image](https://user-images.githubusercontent.com/80022917/151695846-f5e82852-7fd5-407a-98a5-2b9729dc6ce5.png)
-
-
-_IAC: Cloudformation_
-![image](https://user-images.githubusercontent.com/80022917/151695804-64473713-fa40-4aca-9549-5263217ede28.png)
 
 _Monitoring: CloudWatch + Grafana_
 
